@@ -2,6 +2,7 @@ import "reflect-metadata";
 import path from "path";
 import {GuildMember, Intents, Interaction, Message} from "discord.js";
 import {Client} from "discordx";
+import Config from "./Config"
 
 const client = new Client({
     intents: [
@@ -38,4 +39,4 @@ process.on('SIGINT', onExit)
 function onExit() {
 }
 
-client.login('OTE2MDExMjkyMDE0MzA1Mjkx.Yaj7_g.D0TQ9vukhtxZkMdETOhkwctmO78');
+client.login(Config.token);
