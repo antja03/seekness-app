@@ -72,7 +72,7 @@ export abstract class InviteTracker extends AbstractCommand {
             total += invitation.uses
         })
 
-        return interaction.editReply({ content: `${member.user.username} has ${filteredInvitations.length} invitation(s) with ${total} uses.` })
+        return interaction.editReply({ content: `${member.user.username} has ${filteredInvitations.length} invitation(s) with ${total} use(s).` })
     }
 
     /**
