@@ -30,6 +30,7 @@
     "@discordx/utilities": "^3.0.4",
     "discord.js": "^13.3.1",
     "discordx": "^8.1.0",
+    "moment": "^2.29.1",
     "reflect-metadata": "^0.1.13"
   }
 }

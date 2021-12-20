@@ -5,7 +5,7 @@ import {
     On, Slash, SlashOption
 } from "discordx";
 import {
-    CommandInteraction, GuildMember,
+    CommandInteraction,
 } from "discord.js";
 import AbstractCommand from "../structures/AbstractCommand";
 import InvitationData from "../structures/InvitationData";
